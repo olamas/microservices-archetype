@@ -6,4 +6,8 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>microservices-archetype-parent</name>
+  <modules>
+    <module>../microservices-archetype-rest</module>
+    <module>../service-discover-eureka-server</module>
+  </modules>
 </project>
